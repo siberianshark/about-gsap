@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page with GSAP and SVG</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/DrawSVGPlugin.min.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1 class="main-title">Welcome to the Interactive World!</h1>
+        <p class="subheading">Scroll down to discover more amazing animations</p>
+    </header>
+
+    <!-- Section 1: Text Animation -->
+    <section class="section-1">
+        <h2 class="section-title">Creative GSAP Animations</h2>
+        <p class="section-text">This is a demonstration of the creative power of GSAP. Scroll down to see how it can transform elements on your page!</p>
+    </section>
+
+    <!-- Section 2: Icons & SVG Animation -->
+    <section class="section-2">
+        <h2 class="section-title">SVG & Icons</h2>
+        <div class="icon-container">
+            <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle class="icon-circle" cx="50" cy="50" r="40" stroke="black" stroke-width="5" fill="none"/>
+            </svg>
+            <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <rect class="icon-rect" x="10" y="10" width="80" height="80" stroke="black" stroke-width="5" fill="none"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Section 3: Scroll Animation -->
+    <section class="section-3">
+        <h2 class="section-title">Scroll and Watch</h2>
+        <p class="section-text">Scroll down to trigger animations as you move through the page.</p>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  .navbar {
+    background-color: #ffcccb;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  
+  .hero {
+    background-color: #ffeead;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-title {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+  .hero-text {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .about, .contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    color: #ff6f61;
+  }
+  
+  .cat-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .cat-images img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  footer {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
